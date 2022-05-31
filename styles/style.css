@@ -140,3 +140,36 @@ div.foten {
 .listan_links {
   font-size: 10px;
 }
+
+/* galleriet */
+.gallery {
+  margin: 4px;
+  border: 1px solid #ccc;
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  column-gap: 1rem;
+}
+.gallery figure {
+  margin: 0;
+}
+
+.gallery:hover {
+  border: 2px solid #777;
+}
+
+.gallery img {
+  width: 100%;
+  height: auto;
+}
+img:hover {
+  opacity: 0.2;
+}
+figcaption {
+  font-size: 10px;
+}
+@media (min-width: 578px) {
+}
+@media (min-width: 768px) {
+}
+@media (min-width: 1200px) {
+}
